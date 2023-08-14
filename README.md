@@ -8,9 +8,9 @@
 
 `composer require laravel/ui`
 
-`php artisan ui vue --auth`
-
 ### Configurando o banco de dados
+
+`touch .env`
 
 `cp env.example .env`
 
