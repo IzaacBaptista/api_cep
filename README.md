@@ -32,18 +32,28 @@
 
 Retorna todos os endereços cadastrados no banco de dados.
 
+<img src="app/../resources/img/Screenshot%20from%202023-08-14%2009-41-21.png" width="500" height="300">
+
 ### GET /api/endereco/{id}
 
 Retorna o endereço com o id informado.
+
+<img src="app/../resources/img/Screenshot%20from%202023-08-14%2009-43-45.png" width="500" height="300">
 
 ### POST /api/endereco/
 
 Cria um novo endereço no banco de dados.
 
+<img src="app/../resources/img/Screenshot%20from%202023-08-14%2009-42-22.png" width="500" height="300">
+
 ### PATCH /api/endereco/{id}
 
 Atualiza o endereço com o id informado.
 
+<img src="app/../resources/img/Screenshot%20from%202023-08-14%2009-43-13.png" width="500" height="300">
+
 ### DELETE /api/endereco/{id}
 
 Deleta o endereço com o id informado.
+
+<img src="app/../resources/img/Screenshot from 2023-08-14 09-52-36.png" width="500" height="300">
