@@ -26,6 +26,8 @@
 
 `npm run dev`
 
+- para compilar o front
+
 ## Endpoints
 
 ### GET /api/endereco/
