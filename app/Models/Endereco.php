@@ -26,10 +26,10 @@ class Endereco extends Model
     ];
 
     //rules
-    public function rules($request) 
+    public function rules() 
     {    
         return [
-            'cep' => 'required|string|max:12',
+            'cep' => 'required|integer',
             'logradouro' => 'required|string|max:250',
             'bairro' => 'required|string|max:250',
             'cidade' => 'required|string|max:250',
@@ -38,12 +38,11 @@ class Endereco extends Model
     }
 
     //messages
-    public function messages($request)
+    public function messages()
     {
         return [
             'cep.required' => 'O campo CEP é obrigatório',
-            'cep.string' => 'O campo CEP deve ser do tipo string',
-            'cep.max' => 'O campo CEP deve ter no máximo 12 caracteres',
+            'cep.integer' => 'O campo CEP deve ser do tipo número',
             'logradouro.required' => 'O campo Logradouro é obrigatório',
             'logradouro.string' => 'O campo Logradouro deve ser do tipo string',
             'logradouro.max' => 'O campo Logradouro deve ter no máximo 250 caracteres',
